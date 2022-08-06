@@ -22,8 +22,17 @@
     --dark: var(--text);
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    background: var(--background);
+    color: var(--text);
+    font-family: var(--font);
+}
 
-body, html {
+html {
     margin: 0;
     padding: 10px;
     background: var(--background);
